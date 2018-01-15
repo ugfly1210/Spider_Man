@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="21b2ebb1-6fa4-4dd2-ae69-533eed80ec26" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Spider$2_GitHub.coverage" NAME="2.爬虫登录GitHub Coverage Results" MODIFIED="1516037851141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
+    <SUITE FILE_PATH="coverage/Spider$1__.coverage" NAME="1. 爬校花网视频 Coverage Results" MODIFIED="1516034833254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="1. 爬校花网视频.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day01/1. 爬校花网视频.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1403">
+              <caret line="67" column="14" lean-forward="false" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#528#609#1" expanded="false" />
+                <element signature="e#1954#1967#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2.爬虫登录GitHub.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day01/2.爬虫登录GitHub.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/requests/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2304">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>—</find>
+      <find>_result</find>
+      <find>set_result</find>
+      <find>response</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/day01/1. 爬校花网视频.py" />
+        <option value="$PROJECT_DIR$/day01/2.爬虫登录GitHub.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="655" />
+    <option name="y" value="23" />
+    <option name="width" value="785" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spider" type="462c0819:PsiDirectoryNode" />
+              <item name="day01" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="last_opened_file_path" value="$USER_HOME$/virtualenv666/myvenv/flask_v/bin/python3.6" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.2.爬虫登录GitHub">
+    <configuration name="1. 爬校花网视频" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Spider" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day01/1. 爬校花网视频.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="2.爬虫登录GitHub" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Spider" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day01/2.爬虫登录GitHub.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.1. 爬校花网视频" />
+      <item index="1" class="java.lang.String" itemvalue="Python.2.爬虫登录GitHub" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.2.爬虫登录GitHub" />
+        <item index="1" class="java.lang.String" itemvalue="Python.1. 爬校花网视频" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21b2ebb1-6fa4-4dd2-ae69-533eed80ec26" name="Default" comment="" />
+      <created>1516005238972</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516005238972</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24821173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26243782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/day01/1. 爬校花网视频.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#528#609#1" expanded="false" />
+            <element signature="e#1954#1967#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/concurrent/futures/_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="281" column="21" lean-forward="false" selection-start-line="281" selection-start-column="21" selection-end-line="281" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#676#761#0" expanded="false" />
+            <element signature="e#791#936#0" expanded="false" />
+            <element signature="e#1066#1126#0" expanded="false" />
+            <element signature="e#1161#1201#0" expanded="false" />
+            <element signature="e#1234#1291#0" expanded="false" />
+            <element signature="e#1320#1729#0" expanded="false" />
+            <element signature="e#1418#1483#0" expanded="false" />
+            <element signature="e#1527#1563#0" expanded="false" />
+            <element signature="e#1610#1646#0" expanded="false" />
+            <element signature="e#1693#1729#0" expanded="false" />
+            <element signature="e#1770#2377#0" expanded="false" />
+            <element signature="e#1833#1912#0" expanded="false" />
+            <element signature="e#1956#2063#0" expanded="false" />
+            <element signature="e#1984#2063#0" expanded="false" />
+            <element signature="e#2110#2220#0" expanded="false" />
+            <element signature="e#2138#2220#0" expanded="false" />
+            <element signature="e#2267#2377#0" expanded="false" />
+            <element signature="e#2295#2377#0" expanded="false" />
+            <element signature="e#2421#2766#0" expanded="false" />
+            <element signature="e#2513#2564#0" expanded="false" />
+            <element signature="e#2611#2665#0" expanded="false" />
+            <element signature="e#2712#2766#0" expanded="false" />
+            <element signature="e#2808#3708#0" expanded="false" />
+            <element signature="e#2946#3103#0" expanded="false" />
+            <element signature="e#3153#3284#0" expanded="false" />
+            <element signature="e#3181#3284#0" expanded="false" />
+            <element signature="e#3328#3394#0" expanded="false" />
+            <element signature="e#3441#3592#0" expanded="false" />
+            <element signature="e#3639#3708#0" expanded="false" />
+            <element signature="e#3745#4110#0" expanded="false" />
+            <element signature="e#3862#3900#0" expanded="false" />
+            <element signature="e#3935#4002#0" expanded="false" />
+            <element signature="e#4043#4110#0" expanded="false" />
+            <element signature="e#4166#4845#0" expanded="false" />
+            <element signature="e#4337#4774#0" expanded="false" />
+            <element signature="e#4887#6666#0" expanded="false" />
+            <element signature="e#4887#5515#1" expanded="false" />
+            <element signature="e#5641#5849#0" expanded="false" />
+            <element signature="e#5673#5752#0" expanded="false" />
+            <element signature="e#5868#6558#0" expanded="false" />
+            <element signature="e#5924#6558#0" expanded="false" />
+            <element signature="e#6014#6244#0" expanded="false" />
+            <element signature="e#6109#6244#0" expanded="false" />
+            <element signature="e#6337#6453#0" expanded="false" />
+            <element signature="e#6507#6558#0" expanded="false" />
+            <element signature="e#6581#6666#0" expanded="false" />
+            <element signature="e#6606#6666#0" expanded="false" />
+            <element signature="e#6825#8749#0" expanded="false" />
+            <element signature="e#6825#7881#1" expanded="false" />
+            <element signature="e#7920#8538#0" expanded="false" />
+            <element signature="e#7931#8013#0" expanded="false" />
+            <element signature="e#8229#8384#0" expanded="false" />
+            <element signature="e#8236#8321#0" expanded="false" />
+            <element signature="e#8596#8652#0" expanded="false" />
+            <element signature="e#8777#17295#0" expanded="false" />
+            <element signature="e#8870#9130#0" expanded="false" />
+            <element signature="e#9173#9364#0" expanded="false" />
+            <element signature="e#9223#9364#0" expanded="false" />
+            <element signature="e#9398#10238#0" expanded="false" />
+            <element signature="e#9432#10238#0" expanded="false" />
+            <element signature="e#9476#10058#0" expanded="false" />
+            <element signature="e#9516#9766#0" expanded="false" />
+            <element signature="e#9584#9765#0" expanded="false" />
+            <element signature="e#9809#10058#0" expanded="false" />
+            <element signature="e#9879#10057#0" expanded="false" />
+            <element signature="e#10125#10237#0" expanded="false" />
+            <element signature="e#10270#10801#0" expanded="false" />
+            <element signature="e#10270#10463#1" expanded="false" />
+            <element signature="e#10506#10747#0" expanded="false" />
+            <element signature="e#10836#10982#0" expanded="false" />
+            <element signature="e#11015#11142#0" expanded="false" />
+            <element signature="e#11172#11350#0" expanded="false" />
+            <element signature="e#11388#11487#0" expanded="false" />
+            <element signature="e#11534#12288#0" expanded="false" />
+            <element signature="e#11534#12089#1" expanded="false" />
+            <element signature="e#12132#12271#0" expanded="false" />
+            <element signature="e#12217#12271#0" expanded="false" />
+            <element signature="e#12334#13429#0" expanded="false" />
+            <element signature="e#12334#12918#1" expanded="false" />
+            <element signature="e#12961#13429#0" expanded="false" />
+            <element signature="e#13478#14591#0" expanded="false" />
+            <element signature="e#13478#14081#1" expanded="false" />
+            <element signature="e#14125#14591#0" expanded="false" />
+            <element signature="e#14714#16392#0" expanded="false" />
+            <element signature="e#14714#15672#1" expanded="false" />
+            <element signature="e#15715#16392#0" expanded="false" />
+            <element signature="e#15760#16046#0" expanded="false" />
+            <element signature="e#15905#15960#0" expanded="false" />
+            <element signature="e#16104#16153#0" expanded="false" />
+            <element signature="e#16188#16392#0" expanded="false" />
+            <element signature="e#16436#16835#0" expanded="false" />
+            <element signature="e#16436#16581#1" expanded="false" />
+            <element signature="e#16624#16802#0" expanded="false" />
+            <element signature="e#16885#17295#0" expanded="false" />
+            <element signature="e#16885#17032#1" expanded="false" />
+            <element signature="e#17075#17262#0" expanded="false" />
+            <element signature="e#17325#20025#0" expanded="false" />
+            <element signature="e#17451#17781#0" expanded="false" />
+            <element signature="e#17451#17745#1" expanded="false" />
+            <element signature="e#17853#19414#0" expanded="false" />
+            <element signature="e#17853#18752#1" expanded="false" />
+            <element signature="e#18906#18973#0" expanded="false" />
+            <element signature="e#19072#19381#0" expanded="false" />
+            <element signature="e#19093#19290#0" expanded="false" />
+            <element signature="e#19131#19290#0" expanded="false" />
+            <element signature="e#19328#19381#0" expanded="false" />
+            <element signature="e#19459#19873#0" expanded="false" />
+            <element signature="e#19459#19860#1" expanded="false" />
+            <element signature="e#19908#19919#0" expanded="false" />
+            <element signature="e#19980#20025#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/requests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2304">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/requests/cookies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="502" column="4" lean-forward="false" selection-start-line="502" selection-start-column="4" selection-end-line="502" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/requests/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="620" column="31" lean-forward="true" selection-start-line="620" selection-start-column="31" selection-end-line="620" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/1. 爬校花网视频.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1403">
+          <caret line="67" column="14" lean-forward="false" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#528#609#1" expanded="false" />
+            <element signature="e#1954#1967#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/2.爬虫登录GitHub.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
