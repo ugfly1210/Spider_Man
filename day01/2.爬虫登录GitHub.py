@@ -16,8 +16,9 @@ r1 = requests.get('https://github.com/login',
 authenticity_token = re.findall('name="authenticity_token".*?value="(.*?)"',r1.text,re.S)[0]
 # 获取cookie 这里有简单方法
 r1_cookies = r1.cookies.get_dict()
-print(authenticity_token)
-print(r1_cookies)
+print('authenticity_token===',authenticity_token)
+print('r1_cookies===',r1_cookies)
+# print(r1.cookies)
 
 
 # 第二步:提交表单数据，完成登录
@@ -52,12 +53,12 @@ r2 = requests.post('https://github.com/session',
                     # allow_redirects=False
                    )
 
-print(r2.status_code)
-print(r2.history)
+print('r2.status_code===',r2.status_code)
+print('r2.history===',r2.history)
 
 r2_cookies = r2.cookies.get_dict()
-print(r2_cookies)
-print(r2.cookies)
+print('r2_cookies===',r2_cookies)
+# print('r2.cookies===',r2.cookies)
 
 
 r3=requests.get('https://github.com/settings/emails',

@@ -5,7 +5,7 @@ import hashlib
 from concurrent.futures import ThreadPoolExecutor # 线程池
 from threading import current_thread
 
-pool = ThreadPoolExecutor(20)
+pool = ThreadPoolExecutor(50)
 movie_path = r'/Users/macbookpro/desktop/movie_path'
 def get_page(url):
     """获取要访问的网站"""
@@ -27,21 +27,25 @@ def parse_index(res):
     index_page = res.result()
     # print('index_page===',index_page)
     # print('parse_index===%s parse_index'%current_thread().getName())
-    urls = re.findall('class="items".*?href="(.*?)"',index_page,re.S)
-    print('parse_inde_urls==',urls)
+    urls = re.findall('class="items".*?<a href="(.*?)"',index_page,re.S)
+    # print('parse_inde_urls==',urls)
     for detail_url in urls:
         if not detail_url.startswith('http'):
             detail_url = 'http://www.xiaohuar.com'+detail_url
+            # print(detail_url)
         pool.submit(get_page,detail_url).add_done_callback(parse_detail)
 
 def parse_detail(detail_page):
     """parse_detail"""
-    detail_page = detail_page.result()
+    detail_page1 = detail_page.result()
     # print('detail_page===',detail_page)
-    l = re.findall('id="media".*?src="(.*?)"',detail_page,re.S)
+    l = re.findall('id="media".*?src="(.*?)"',detail_page1,re.S)
+    # print(l)
     if l :
         movie_url = l[0]
         if movie_url.endswith('mp4'):
+
+
             pool.submit(get_movie,movie_url)
 
 def get_movie(url):
@@ -69,7 +73,11 @@ def main():
     base_url = 'http://www.xiaohuar.com/list-3-{page_num}.html'
     for i in range(5):
         url = base_url.format(page_num=i)
+        print(url,'-----')
         pool.submit(get_page,url).add_done_callback(parse_index)
 
 if __name__ == '__main__':
     main()
+
+
+
