@@ -1,13 +1,13 @@
 import requests
-import re,json
+import re, json
 
 session = requests.session()  # 会自动保存所有与回话有关的信息    服务端返回的cookie会自动保存session里面
-# username = 1861145311
+# username = 666
 # password = '70621c64832c4d4d66a47be6150b4a8e'
 #
 # # 第一步:获取登录页面。获取：
-# # X-Anit-Forge-Code:77447998
-# # X-Anit-Forge-Token:c56c737c-9538-44ba-8ddd-e18163349b06
+# # X-Anti-Forge-Code:77447998
+# # X-Anti-Forge-Token:c56c737c-9538-44ba-8ddd-e18163349b06
 # # 1：url:https://passport.lagou.com/login/login.html
 # # 2：请求方法：get
 # # 3: 请求头：
@@ -20,9 +20,9 @@ session = requests.session()  # 会自动保存所有与回话有关的信息   
 #                      'Referer': 'https://www.lagou.com/lp/html/common.html?utm_source=m_cf_cpc_baidu_pc&m_kw=baidu_cpc_bj_e110f9_d2162e_%E6%8B%89%E5%8B%BE',
 #                  }
 #                  )
-# X_Anit_Forge_Code = re.findall("X_Anti_Forge_Code = '(.*?)'", r1.text, re.S)[0]
-# print(X_Anit_Forge_Code)
-# X_Anit_Forge_Token = re.findall("X_Anti_Forge_Token = '(.*?)'", r1.text, re.S)[0]
+# X_Anti_Forge_Code = re.findall("X_Anti_Forge_Code = '(.*?)'", r1.text, re.S)[0]
+# print(X_Anti_Forge_Code)
+# X_Anti_Forge_Token = re.findall("X_Anti_Forge_Token = '(.*?)'", r1.text, re.S)[0]
 #
 # # 第二步：
 # # 1：url:Request URL:https://passport.lagou.com/login/login.json
@@ -32,8 +32,8 @@ session = requests.session()  # 会自动保存所有与回话有关的信息   
 # #   User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
 # #
 # # # 注意了：这里的东西，应该是从之前页面拿过来的对不对 ！
-# # X-Anit-Forge-Code:77447998
-# # X-Anit-Forge-Token:c56c737c-9538-44ba-8ddd-e18163349b06
+# # X-Anti-Forge-Code:77447998
+# # X-Anti-Forge-Token:c56c737c-9538-44ba-8ddd-e18163349b06
 # # X-Requested-With:XMLHttpRequest
 # # 4、请求体：
 # # isValidate:true
@@ -44,8 +44,8 @@ session = requests.session()  # 会自动保存所有与回话有关的信息   
 # """
 # 'Referer':'https://passport.lagou.com/login/login.html?service=https%3a%2f%2fwww.lagou.com%2f'
 # 'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
-# 'X-Anit-Forge-Code':77447998
-# 'X-Anit-Forge-Token':c56c737c-9538-44ba-8ddd-e18163349b06
+# 'X-Anti-Forge-Code':77447998
+# 'X-Anti-Forge-Token':c56c737c-9538-44ba-8ddd-e18163349b06
 # 'X-Requested-With':'XMLHttpRequest'
 # """
 #
@@ -53,8 +53,8 @@ session = requests.session()  # 会自动保存所有与回话有关的信息   
 #                   headers={
 #                       'Referer': 'https://passport.lagou.com/login/login.html?service=https%3a%2f%2fwww.lagou.com%2f',
 #                       'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
-#                       'X-Anit-Forge-Code': X_Anit_Forge_Code,
-#                       'X-Anit-Forge-Token': X_Anit_Forge_Token,
+#                       'X-Anti-Forge-Code': X_Anti_Forge_Code,
+#                       'X-Anti-Forge-Token': X_Anti_Forge_Token,
 #                       'X-Requested-With': 'XMLHttpRequest'
 #                   },
 #                   data={
@@ -90,10 +90,6 @@ session = requests.session()  # 会自动保存所有与回话有关的信息   
 # # print(r4.text)
 #
 # print('18611453110' in r4.text)
-
-
-
-
 
 # --------------------------->  截止此， 全部是登录验证用。
 
@@ -147,8 +143,8 @@ session = requests.session()  # 会自动保存所有与回话有关的信息   
 
 # 请求头：
 #   User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
-#   X-Anit-Forge-Code:0
-#   X-Anit-Forge-Token:None
+#   X-Anti-Forge-Code:0
+#   X-Anti-Forge-Token:None
 #   X-Requested-With:XMLHttpRequest
 
 # Form Data
@@ -173,8 +169,8 @@ session = requests.session()  # 会自动保存所有与回话有关的信息   
 # r6 = session.post('https://www.lagou.com/jobs/positionAjax.json?needAddtionalResult=false&isSchoolJob=0',
 #                   headers={
 #                       'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
-#                       'X-Anit-Forge-Code': '0',
-#                       'X-Anit-Forge-Token': None,
+#                       'X-Anti-Forge-Code': '0',
+#                       'X-Anti-Forge-Token': None,
 #                       'X-Requested-With': 'XMLHttpRequest',
 #                       'Referer': url
 #                   },
@@ -205,21 +201,19 @@ session = requests.session()  # 会自动保存所有与回话有关的信息   
 from urllib.parse import urlencode
 
 def get_search(
-        keyword,            # 搜索的关键词
+        keyword,  # 搜索的关键词
         pn=1,
-        city='北京',         # 目标城市
-        district=None,      # 行政区
-        bizArea=None,       # 商圈
-        isSchoolJob=None,   # 工作性质
+        city='北京',  # 目标城市
+        district=None,  # 行政区
+        bizArea=None,  # 商圈
+        isSchoolJob=None,  # 工作性质
         xl=None,  # 学历
         jd=None,  # 融资阶段
         hy=None,  # 行业
         yx=None,  # 工作范围
         needAddtionalResult=False,
         px='default'
-                ):
-
-
+):
     # 获取url
     url_encode = urlencode({'k': keyword}, encoding='utf-8')
     print(url_encode)  # k=python%E5%BC%80%E5%8F%91
@@ -228,8 +222,8 @@ def get_search(
     r7 = session.post('https://www.lagou.com/jobs/positionAjax.json?needAddtionalResult=false&isSchoolJob=0',
                       headers={
                           'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
-                          'X-Anit-Forge-Code': '0',
-                          'X-Anit-Forge-Token': None,
+                          'X-Anti-Forge-Code': '0',
+                          'X-Anti-Forge-Token': None,
                           'X-Requested-With': 'XMLHttpRequest',
                           'Referer': url
                       },
@@ -250,26 +244,30 @@ def get_search(
                           'needAddtionalResult': needAddtionalResult,
                           'px': px
                       })
-    print(r7.status_code)
-    print('关于您对<%s职位>的搜索正在进行，请稍后...'%keyword)
-    print(r7)
-    return r7.json()
+    # print(r7.status_code)
+    print('关于您对<%s职位>的搜索正在进行，请稍后...' % keyword)
+    # print(r7)
+    # return r7.json()
+    return r7
+
 
 # get_search('python开发')
 
-#求职信息
-keyword='python开发'
-yx='10k-15k'
-city='北京'
-district='朝阳区'
-isSchoolJob='0' #应届或实习
+# 求职信息
+keyword = 'python开发'
+yx = '10k-15k'
+city = '北京'
+district = '朝阳区'
+isSchoolJob = '0'  # 应届或实习
 
-response=get_search(keyword=keyword,yx=yx,city=city,district=district,isSchoolJob=isSchoolJob)
+# response=get_search(keyword=keyword,yx=yx,city=city,district=district,isSchoolJob=isSchoolJob)
+response = get_search(keyword=keyword, yx=yx, city=city, district=district, isSchoolJob=isSchoolJob).json()
 print(response)
-results=response['content']['positionResult']['result']
+results = response['content']['positionResult']['result']
 print(results)
 
-#打印公司的详细信息
+
+# 打印公司的详细信息
 def get_company_info(results):
     for res in results:
         info = '''
@@ -301,6 +299,49 @@ def get_company_info(results):
         )
         print(info)
         # 经分析，公司的详细链接都是：https://www.lagou.com/jobs/2653020.html ，其中那个编号就是职位id
-        #print('公司全称[%s],简称[%s]' %(res['companyFullName'],res['companyShortName']))
+        # print('公司全称[%s],简称[%s]' %(res['companyFullName'],res['companyShortName']))
+
+
 get_company_info(results)
 
+
+# 投简历
+# url:https://www.lagou.com/mycenterDelay/deliverResumeBeforce.json
+# 请求方法： POST
+# 请求头: #Referer:详情页地址
+# User-agent
+# X-Anti-Forge-Code:
+# X-Anti-Forge-Token:
+# X-Requested-With:XMLHttpRequest
+#请求体：
+    # positionId:职位ID
+    # type:1
+    # force:true
+
+
+# 投简历
+# def throw_resumes():
+#     rr = json.dumps(response)
+#     X_Anti_Forge_Code = re.findall("X_Anti_Forge_Code = '(.*?)'", rr.text, re.S)[0]
+#     print(X_Anti_Forge_Code)
+#     X_Anti_Forge_Token = re.findall("X_Anti_Forge_Token = '(.*?)'", rr.text, re.S)[0]
+#
+#     for res in results:
+#         positionId = res['positionId']
+#         company_link = 'https://www.lagou.com/jobs/{pos_id}.html'.format(pos_id=positionId)
+#         session.post('https://www.lagou.com/mycenterDelay/deliverResumeBeforce.json',
+#                      headers={
+#                          'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+#                          'Referer': company_link,
+#                          'X-Anti-Forge-Code': X_Anti_Forge_Code,
+#                          'X-Anti-Forge-Token': X_Anti_Forge_Token,
+#                          'X-Requested-With': 'XMLHttpRequest'
+#                      },
+#                      data={
+#                          'positionId': positionId,
+#                          'type': 1,
+#                          'force': True
+#                      })
+#
+# # 不需要投简历时，请注释掉！！！
+# # throw_resumes()

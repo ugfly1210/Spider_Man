@@ -52,4 +52,50 @@ response = requests.get('https://www.baidu.com',
 
 
 
-# 六：上传文件   files = '文件句柄'
+# 六：上传文件   files = '文件句柄
+#
+#
+
+
+
+
+
+
+# import requests
+# from requests.packages import urllib3
+# urllib3.disable_warnings() #关闭警告
+#
+# # respone=requests.get('https://www.12306.cn')
+# respone=requests.get('https://www.12306.cn',verify=False)  # 如果verify=False 那么Requests也能忽略对 SSL 证书的验证。
+# print(respone.text)										 # 这个东西多用于公司内网。
+
+
+# import requests
+# respone=requests.get('https://www.12306.cn',
+#                      cert=('/path/server.crt',   # 证书相关
+#                            '/path/key'))
+# print(respone.status_code)
+
+
+
+# import requests
+#
+# response=requests.get('https://www.baidu.com',proxies={'http':'http://120.25.164.134:8118'})
+# # requests.get('https://www.baidu.com',proxies={'sock':'http://代理主机的ip:port'})
+#
+# print(response.status_code)
+# with open('a.html','w',encoding='utf-8') as f:
+#     f.write(response.text)
+
+
+# import requests
+# respone=requests.get('https://www.baidu.com',
+#                      timeout=0.0001)
+#
+
+# import requests
+# from requests.auth import HTTPBasicAuth
+#
+# r=requests.get('xxx',auth=HTTPBasicAuth('user','password'))
+# print(r.status_code)
+
