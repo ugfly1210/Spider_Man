@@ -47,7 +47,7 @@ try:
     inp_user = browser.find_element_by_name('email')
     inp_pwd = browser.find_element_by_name('password')
     button = browser.find_element_by_id('dologin')
-    inp_user.send_keys('18611453110')
+    inp_user.send_keys('66666')
     inp_pwd.send_keys('xxxx')
     button.click()
 

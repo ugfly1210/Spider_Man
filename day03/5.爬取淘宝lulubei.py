@@ -31,24 +31,28 @@ def get_goods(browser):
     with open('saosao','w') as f :
         for x in msgs:
             f.write(x)
+def spider(url,keyword):
+    try:
+        browser = webdriver.Chrome()
+        browser.get(url)
+        browser.implicitly_wait(10)
+        # 找到搜索框，并输入关键字
+        # browser.find_element_by_css_selector('div .s-combobox-input > input')
+        search_tag = browser.find_element_by_id('q')
+        search_tag.send_keys(keyword)
+        search_tag.send_keys(Keys.ENTER)
+        get_goods(browser)
+        time.sleep(50)
+        # print(browser)
+    finally:
+        browser.quit()
 
-try:
-    keyword = '撸撸杯'
-    browser = webdriver.Chrome()
-    browser.get('https://www.taobao.com')
-    browser.implicitly_wait(10)
-    # 找到搜索框，并输入关键字
-    # browser.find_element_by_css_selector('div .s-combobox-input > input')
-    search_tag = browser.find_element_by_id('q')
-    search_tag.send_keys(keyword)
-    search_tag.send_keys(Keys.ENTER)
-    get_goods(browser)
-    time.sleep(50)
-    # print(browser)
-finally:
-    browser.quit()
+url='https://www.taobao.com'
+keyword = '撸撸杯'
 
-
+# 执行
+if __name__ == '__main__':
+    spider(url,keyword)
 
 
 
