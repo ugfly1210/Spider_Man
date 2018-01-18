@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21b2ebb1-6fa4-4dd2-ae69-533eed80ec26" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day02/image.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day02/1.1:requests高级用法.py" afterPath="$PROJECT_DIR$/day02/1.1:requests高级用法.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day02/2. 拉钩分析过程.py" afterPath="$PROJECT_DIR$/day02/2. 拉钩分析过程.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day02/3. 爬拉钩.py" afterPath="$PROJECT_DIR$/day02/3. 爬拉钩.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,49 +16,41 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Spider$re_compile_re_S.coverage" NAME="re.compile&amp;re.S Coverage Results" MODIFIED="1516071381577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Spider$namepid.coverage" NAME="name和pid Coverage Results" MODIFIED="1516064206318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process&amp;threading" />
+    <SUITE FILE_PATH="coverage/Spider$4_.coverage" NAME="4.选项卡相关 Coverage Results" MODIFIED="1516277191936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
+    <SUITE FILE_PATH="coverage/Spider$1_selenium.coverage" NAME="1.selenium Coverage Results" MODIFIED="1516263313117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
+    <SUITE FILE_PATH="coverage/Spider$unsplash.coverage" NAME="爬unsplash Coverage Results" MODIFIED="1516087277935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
+    <SUITE FILE_PATH="coverage/Spider$2_selenium_action_chains.coverage" NAME="2.selenium 滑动action chains Coverage Results" MODIFIED="1516257624732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
+    <SUITE FILE_PATH="coverage/Spider$5_.coverage" NAME="5.爬取京东商品信息 Coverage Results" MODIFIED="1516281025248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
     <SUITE FILE_PATH="coverage/Spider$1_2.coverage" NAME="1.2多线程爬校花 Coverage Results" MODIFIED="1516074529463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
     <SUITE FILE_PATH="coverage/Spider$3__.coverage" NAME="3. 爬拉钩 Coverage Results" MODIFIED="1516189987142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Spider$2_GitHub.coverage" NAME="2.爬虫登录GitHub Coverage Results" MODIFIED="1516062888980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
-    <SUITE FILE_PATH="coverage/Spider$namepid.coverage" NAME="name和pid Coverage Results" MODIFIED="1516064206318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/process&amp;threading" />
+    <SUITE FILE_PATH="coverage/Spider$3__action.coverage" NAME="3. action Coverage Results" MODIFIED="1516244353839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
     <SUITE FILE_PATH="coverage/Spider$1__.coverage" NAME="1. 爬校花网视频 Coverage Results" MODIFIED="1516074358512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
-    <SUITE FILE_PATH="coverage/Spider$unsplash.coverage" NAME="爬unsplash Coverage Results" MODIFIED="1516087277935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
     <SUITE FILE_PATH="coverage/Spider$2__requests_session.coverage" NAME="2. requests.session Coverage Results" MODIFIED="1516182256809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="3. 爬拉钩.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day02/3. 爬拉钩.py">
+      <file leaf-file-name="5.爬取淘宝lulubei.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day03/5.爬取淘宝lulubei.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="180" column="11" lean-forward="true" selection-start-line="180" selection-start-column="11" selection-end-line="180" selection-end-column="11" />
+            <state relative-caret-position="265">
+              <caret line="21" column="15" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
               <folding>
-                <element signature="e#7#22#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2. 拉钩分析过程.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day02/2. 拉钩分析过程.py">
+      <file leaf-file-name="4.自动登录163邮箱并发送.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day03/4.自动登录163邮箱并发送.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="993">
-              <caret line="307" column="0" lean-forward="false" selection-start-line="307" selection-start-column="0" selection-end-line="307" selection-end-column="0" />
+            <state relative-caret-position="349">
+              <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <element signature="e#111#127#0" expanded="false" />
-                <element signature="e#4166#4212#0" expanded="false" />
-                <element signature="e#11262#11267#0" expanded="false" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1.1:requests高级用法.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day02/1.1:requests高级用法.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -117,6 +105,23 @@
         <option value="$PROJECT_DIR$/day02/1.1:requests高级用法.py" />
         <option value="$PROJECT_DIR$/day02/3. 爬拉钩.py" />
         <option value="$PROJECT_DIR$/day02/2. 拉钩分析过程.py" />
+        <option value="$PROJECT_DIR$/day03/3. action.py" />
+        <option value="$PROJECT_DIR$/day03/2.selenium 滑动action chains.py" />
+        <option value="$PROJECT_DIR$/day03/3.破解滑动验证码.py" />
+        <option value="$PROJECT_DIR$/day03/1.selenium.py" />
+        <option value="$PROJECT_DIR$/day03/1.selenium基本使用.py" />
+        <option value="$PROJECT_DIR$/day03/4.选项卡相关.py" />
+        <option value="$PROJECT_DIR$/day03/5.back&amp;forward相关.py" />
+        <option value="$PROJECT_DIR$/day03/2_1.交互操作-action chains用法.py" />
+        <option value="$PROJECT_DIR$/day03/2.交互操作/2_1.交互操作-action chains用法.py" />
+        <option value="$PROJECT_DIR$/day03/2.交互操作/2_2.frame.py" />
+        <option value="$PROJECT_DIR$/day03/2.交互操作/2_3.在交互动作比较难实现的时候可以自己写JS(万能方法).py" />
+        <option value="$PROJECT_DIR$/day03/3.浏览器的前进后退、cookies、选项卡、异常/异常.py" />
+        <option value="$PROJECT_DIR$/day03/2.交互操作/2_4.click、clear.py" />
+        <option value="$PROJECT_DIR$/day03/3.浏览器的前进后退、cookies、选项卡、异常/cookies.py" />
+        <option value="$PROJECT_DIR$/day03/4.自动登录163邮箱并发送.py" />
+        <option value="$PROJECT_DIR$/day03/saosao" />
+        <option value="$PROJECT_DIR$/day03/5.爬取京东商品信息.py" />
       </list>
     </option>
   </component>
@@ -127,10 +132,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="47" />
+    <option name="x" value="8" />
     <option name="y" value="23" />
-    <option name="width" value="1393" />
-    <option name="height" value="877" />
+    <option name="width" value="722" />
+    <option name="height" value="836" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -150,7 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,12 +165,13 @@
             <path>
               <item name="Spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spider" type="462c0819:PsiDirectoryNode" />
-              <item name="day02" type="462c0819:PsiDirectoryNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -175,6 +180,12 @@
     <property name="last_opened_file_path" value="$USER_HOME$/virtualenv666/myvenv/Spider/Spider/bin/python3.6" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/macbookpro/PycharmProjects/Spider/day02/lagou.html" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day03/3.浏览器的前进后退、cookies、选项卡、异常" />
+      <recent name="$PROJECT_DIR$/day03/2.交互操作" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -188,111 +199,111 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.3. 爬拉钩">
-    <configuration name="1. 爬校花网视频" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.5.爬取京东商品信息">
+    <configuration name="1.selenium" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Spider" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day01/1. 爬校花网视频.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day03/1.selenium基本使用.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="1.2多线程爬校花" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2.selenium 滑动action chains" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day01" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/virtualenv666/myvenv/Spider/Spider/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day03" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Spider" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day01/1.2多线程爬校花.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day03/2.交互操作/2_1.交互操作-action chains用法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="2. requests.session" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="3. action" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Spider" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day02/2. 拉钩分析过程.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day03/2.交互操作/2_2.frame.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="3. 爬拉钩" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="4.选项卡相关" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Spider" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day02/3. 爬拉钩.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day03/3.浏览器的前进后退、cookies、选项卡、异常/选项卡相关.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="爬unsplash" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5.爬取京东商品信息" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Spider" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day02/0. 爬unsplash.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day03/5.爬取淘宝lulubei.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.1. 爬校花网视频" />
-      <item index="1" class="java.lang.String" itemvalue="Python.1.2多线程爬校花" />
-      <item index="2" class="java.lang.String" itemvalue="Python.爬unsplash" />
-      <item index="3" class="java.lang.String" itemvalue="Python.2. requests.session" />
-      <item index="4" class="java.lang.String" itemvalue="Python.3. 爬拉钩" />
+      <item index="0" class="java.lang.String" itemvalue="Python.1.selenium" />
+      <item index="1" class="java.lang.String" itemvalue="Python.2.selenium 滑动action chains" />
+      <item index="2" class="java.lang.String" itemvalue="Python.3. action" />
+      <item index="3" class="java.lang.String" itemvalue="Python.4.选项卡相关" />
+      <item index="4" class="java.lang.String" itemvalue="Python.5.爬取京东商品信息" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.3. 爬拉钩" />
-        <item index="1" class="java.lang.String" itemvalue="Python.2. requests.session" />
-        <item index="2" class="java.lang.String" itemvalue="Python.爬unsplash" />
-        <item index="3" class="java.lang.String" itemvalue="Python.1.2多线程爬校花" />
-        <item index="4" class="java.lang.String" itemvalue="Python.1. 爬校花网视频" />
+        <item index="0" class="java.lang.String" itemvalue="Python.5.爬取京东商品信息" />
+        <item index="1" class="java.lang.String" itemvalue="Python.4.选项卡相关" />
+        <item index="2" class="java.lang.String" itemvalue="Python.1.selenium" />
+        <item index="3" class="java.lang.String" itemvalue="Python.2.selenium 滑动action chains" />
+        <item index="4" class="java.lang.String" itemvalue="Python.3. action" />
       </list>
     </recent_temporary>
   </component>
@@ -314,13 +325,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13876967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14806867" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.95522386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11940298" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -350,25 +360,72 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day02/0. 爬unsplash.py">
+    <entry file="file://$PROJECT_DIR$/day03/2.交互操作/2_1.交互操作-action chains用法.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="58" column="60" lean-forward="false" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
+        <state relative-caret-position="253">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding>
-            <element signature="e#0#49#0" expanded="false" />
-            <element signature="e#318#1332#1" expanded="false" />
+            <element signature="e#1358#1388#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day02/image.txt">
+    <entry file="file://$PROJECT_DIR$/day02/1.1:requests高级用法.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="2277">
+          <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day03/2.交互操作/2_2.frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="e#85#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day02/3. 爬拉钩.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4140">
+          <caret line="180" column="11" lean-forward="false" selection-start-line="180" selection-start-column="11" selection-end-line="180" selection-end-column="11" />
+          <folding>
+            <element signature="e#7#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day02/1.1:requests高级用法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2277">
+          <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day02/2. 拉钩分析过程.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2599">
+          <caret line="307" column="0" lean-forward="false" selection-start-line="307" selection-start-column="0" selection-end-line="307" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#111#127#0" expanded="false" />
+            <element signature="e#11262#11267#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day02/0. 爬unsplash.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="58" column="60" lean-forward="false" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day02/image.txt" />
     <entry file="file://$PROJECT_DIR$/re.compile&amp;re.S.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -388,7 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -410,119 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="694">
           <caret line="281" column="21" lean-forward="false" selection-start-line="281" selection-start-column="21" selection-end-line="281" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#676#761#0" expanded="false" />
-            <element signature="e#791#936#0" expanded="false" />
-            <element signature="e#1066#1126#0" expanded="false" />
-            <element signature="e#1161#1201#0" expanded="false" />
-            <element signature="e#1234#1291#0" expanded="false" />
-            <element signature="e#1320#1729#0" expanded="false" />
-            <element signature="e#1418#1483#0" expanded="false" />
-            <element signature="e#1527#1563#0" expanded="false" />
-            <element signature="e#1610#1646#0" expanded="false" />
-            <element signature="e#1693#1729#0" expanded="false" />
-            <element signature="e#1770#2377#0" expanded="false" />
-            <element signature="e#1833#1912#0" expanded="false" />
-            <element signature="e#1956#2063#0" expanded="false" />
-            <element signature="e#1984#2063#0" expanded="false" />
-            <element signature="e#2110#2220#0" expanded="false" />
-            <element signature="e#2138#2220#0" expanded="false" />
-            <element signature="e#2267#2377#0" expanded="false" />
-            <element signature="e#2295#2377#0" expanded="false" />
-            <element signature="e#2421#2766#0" expanded="false" />
-            <element signature="e#2513#2564#0" expanded="false" />
-            <element signature="e#2611#2665#0" expanded="false" />
-            <element signature="e#2712#2766#0" expanded="false" />
-            <element signature="e#2808#3708#0" expanded="false" />
-            <element signature="e#2946#3103#0" expanded="false" />
-            <element signature="e#3153#3284#0" expanded="false" />
-            <element signature="e#3181#3284#0" expanded="false" />
-            <element signature="e#3328#3394#0" expanded="false" />
-            <element signature="e#3441#3592#0" expanded="false" />
-            <element signature="e#3639#3708#0" expanded="false" />
-            <element signature="e#3745#4110#0" expanded="false" />
-            <element signature="e#3862#3900#0" expanded="false" />
-            <element signature="e#3935#4002#0" expanded="false" />
-            <element signature="e#4043#4110#0" expanded="false" />
-            <element signature="e#4166#4845#0" expanded="false" />
-            <element signature="e#4337#4774#0" expanded="false" />
-            <element signature="e#4887#6666#0" expanded="false" />
-            <element signature="e#4887#5515#1" expanded="false" />
-            <element signature="e#5641#5849#0" expanded="false" />
-            <element signature="e#5673#5752#0" expanded="false" />
-            <element signature="e#5868#6558#0" expanded="false" />
-            <element signature="e#5924#6558#0" expanded="false" />
-            <element signature="e#6014#6244#0" expanded="false" />
-            <element signature="e#6109#6244#0" expanded="false" />
-            <element signature="e#6337#6453#0" expanded="false" />
-            <element signature="e#6507#6558#0" expanded="false" />
-            <element signature="e#6581#6666#0" expanded="false" />
-            <element signature="e#6606#6666#0" expanded="false" />
-            <element signature="e#6825#8749#0" expanded="false" />
-            <element signature="e#6825#7881#1" expanded="false" />
-            <element signature="e#7920#8538#0" expanded="false" />
-            <element signature="e#7931#8013#0" expanded="false" />
-            <element signature="e#8229#8384#0" expanded="false" />
-            <element signature="e#8236#8321#0" expanded="false" />
-            <element signature="e#8596#8652#0" expanded="false" />
-            <element signature="e#8777#17295#0" expanded="false" />
-            <element signature="e#8870#9130#0" expanded="false" />
-            <element signature="e#9173#9364#0" expanded="false" />
-            <element signature="e#9223#9364#0" expanded="false" />
-            <element signature="e#9398#10238#0" expanded="false" />
-            <element signature="e#9432#10238#0" expanded="false" />
-            <element signature="e#9476#10058#0" expanded="false" />
-            <element signature="e#9516#9766#0" expanded="false" />
-            <element signature="e#9584#9765#0" expanded="false" />
-            <element signature="e#9809#10058#0" expanded="false" />
-            <element signature="e#9879#10057#0" expanded="false" />
-            <element signature="e#10125#10237#0" expanded="false" />
-            <element signature="e#10270#10801#0" expanded="false" />
-            <element signature="e#10270#10463#1" expanded="false" />
-            <element signature="e#10506#10747#0" expanded="false" />
-            <element signature="e#10836#10982#0" expanded="false" />
-            <element signature="e#11015#11142#0" expanded="false" />
-            <element signature="e#11172#11350#0" expanded="false" />
-            <element signature="e#11388#11487#0" expanded="false" />
-            <element signature="e#11534#12288#0" expanded="false" />
-            <element signature="e#11534#12089#1" expanded="false" />
-            <element signature="e#12132#12271#0" expanded="false" />
-            <element signature="e#12217#12271#0" expanded="false" />
-            <element signature="e#12334#13429#0" expanded="false" />
-            <element signature="e#12334#12918#1" expanded="false" />
-            <element signature="e#12961#13429#0" expanded="false" />
-            <element signature="e#13478#14591#0" expanded="false" />
-            <element signature="e#13478#14081#1" expanded="false" />
-            <element signature="e#14125#14591#0" expanded="false" />
-            <element signature="e#14714#16392#0" expanded="false" />
-            <element signature="e#14714#15672#1" expanded="false" />
-            <element signature="e#15715#16392#0" expanded="false" />
-            <element signature="e#15760#16046#0" expanded="false" />
-            <element signature="e#15905#15960#0" expanded="false" />
-            <element signature="e#16104#16153#0" expanded="false" />
-            <element signature="e#16188#16392#0" expanded="false" />
-            <element signature="e#16436#16835#0" expanded="false" />
-            <element signature="e#16436#16581#1" expanded="false" />
-            <element signature="e#16624#16802#0" expanded="false" />
-            <element signature="e#16885#17295#0" expanded="false" />
-            <element signature="e#16885#17032#1" expanded="false" />
-            <element signature="e#17075#17262#0" expanded="false" />
-            <element signature="e#17325#20025#0" expanded="false" />
-            <element signature="e#17451#17781#0" expanded="false" />
-            <element signature="e#17451#17745#1" expanded="false" />
-            <element signature="e#17853#19414#0" expanded="false" />
-            <element signature="e#17853#18752#1" expanded="false" />
-            <element signature="e#18906#18973#0" expanded="false" />
-            <element signature="e#19072#19381#0" expanded="false" />
-            <element signature="e#19093#19290#0" expanded="false" />
-            <element signature="e#19131#19290#0" expanded="false" />
-            <element signature="e#19328#19381#0" expanded="false" />
-            <element signature="e#19459#19873#0" expanded="false" />
-            <element signature="e#19459#19860#1" expanded="false" />
-            <element signature="e#19908#19919#0" expanded="false" />
-            <element signature="e#19980#20025#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -537,7 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="620" column="31" lean-forward="true" selection-start-line="620" selection-start-column="31" selection-end-line="620" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -545,7 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -561,9 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -571,7 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="213" column="27" lean-forward="false" selection-start-line="213" selection-start-column="21" selection-end-line="213" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -588,7 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -596,7 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1794">
           <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -604,7 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1403">
           <caret line="67" column="77" lean-forward="false" selection-start-line="67" selection-start-column="66" selection-end-line="67" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -612,25 +546,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="851">
           <caret line="56" column="49" lean-forward="false" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
-          <folding>
-            <element signature="e#318#1332#1" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day02/lagou">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32824">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/day02/lagou" />
     <entry file="file://$PROJECT_DIR$/day02/lagou.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -638,46 +561,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day02/jianli.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day02/招聘信息">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day02/image.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="55" lean-forward="true" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day02/1.1:requests高级用法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/day02/jianli.html" />
+    <entry file="file://$PROJECT_DIR$/day02/招聘信息" />
+    <entry file="file://$PROJECT_DIR$/day02/image.txt" />
     <entry file="file://$PROJECT_DIR$/day02/3. 爬拉钩.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="180" column="11" lean-forward="true" selection-start-line="180" selection-start-column="11" selection-end-line="180" selection-end-column="11" />
+        <state relative-caret-position="199">
+          <caret line="180" column="11" lean-forward="false" selection-start-line="180" selection-start-column="11" selection-end-line="180" selection-end-column="11" />
           <folding>
             <element signature="e#7#22#0" expanded="true" />
           </folding>
@@ -686,13 +579,162 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day02/2. 拉钩分析过程.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="993">
+        <state relative-caret-position="452">
           <caret line="307" column="0" lean-forward="false" selection-start-line="307" selection-start-column="0" selection-end-line="307" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
             <element signature="e#111#127#0" expanded="false" />
-            <element signature="e#4166#4212#0" expanded="false" />
             <element signature="e#11262#11267#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day02/1.1:requests高级用法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/virtualenv666/myvenv/Spider/Spider/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="531" column="51" lean-forward="true" selection-start-line="531" selection-start-column="51" selection-end-line="531" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03/3.浏览器的前进后退、cookies、选项卡、异常/back&amp;forward相关.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03/3.浏览器的前进后退、cookies、选项卡、异常/cookies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03/2.交互操作/2_4.click、clear.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#30#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03/1.selenium基本使用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="55" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03/6.破解滑动验证码.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03/2.交互操作/2_3.在交互动作比较难实现的时候可以自己写JS(万能方法).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03/2.交互操作/2_1.交互操作-action chains用法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="e#1358#1388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03/3.浏览器的前进后退、cookies、选项卡、异常/异常处理.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03/2.交互操作/2_2.frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#85#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03/3.浏览器的前进后退、cookies、选项卡、异常/选项卡相关.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="e#64#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03/4.自动登录163邮箱并发送.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03/saosao">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5325">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03/saosao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03/5.爬取淘宝lulubei.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="21" column="15" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
