@@ -10,7 +10,7 @@ from selenium.webdriver.support.wait import WebDriverWait #等待页面加载某
 
 def get_goods(browser):
     goods = browser.find_elements_by_class_name('J_MouserOnverReq')
-    # print(goods)
+    print(goods)
     msgs=[]
     for detail_good in goods:
         tag_a = detail_good.find_element_by_css_selector('.pic > .pic-link')

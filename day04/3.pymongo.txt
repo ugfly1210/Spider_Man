@@ -1,0 +1,315 @@
+import datetime
+from pymongo import MongoClient
+
+
+# 数据准备
+client = MongoClient()
+table = client['db1']['emp']
+l=[
+('pp','male',18,'20170301','eat_god',7300.33,401,1), #以下是授业解惑的
+('ww','male',78,'20150302','teacher',1000000.31,401,1),
+('ff','male',81,'20130305','teacher',8300,401,1),
+('wusir','male',73,'20140701','teacher',3500,401,1),
+('peiqi','male',28,'20121101','teacher',2100,401,1),
+('eva_jing','female',18,'20110211','teacher',9000,401,1),
+('shaowei','male',18,'19000301','teacher',30000,401,1),
+('gaylao','male',48,'20101111','teacher',10000,401,1),
+
+('歪歪','female',48,'20150311','sale',3000.13,402,2),#以下是销售部门
+('丫丫','female',38,'20101101','sale',2000.35,402,2),
+('丁丁','female',18,'20110312','sale',1000.37,402,2),
+('星星','female',18,'20160513','sale',3000.29,402,2),
+('格格','female',28,'20170127','sale',4000.33,402,2),
+
+('张野','male',28,'20160311','operation',10000.13,403,3), #以下是运营部门
+('程咬金','male',18,'19970312','operation',20000,403,3),
+('程咬银','female',18,'20130311','operation',19000,403,3),
+('程咬铜','male',18,'20150411','operation',18000,403,3),
+('程咬铁','female',18,'20140512','operation',17000,403,3)
+]
+
+for n,item in enumerate(l):
+    d={
+        "_id":n,
+        'name':item[0],
+        'sex':item[1],
+        'age':item[2],
+        'hire_date':datetime.datetime.strptime(item[3],'%Y%m%d'),
+        'post':item[4],
+        'salary':item[5]
+    }
+    table.save(d)
+
+# 聚合框架：
+# 可以使用多个构件创建一个管道，上一个构件的结果传给下一个构件。
+# 这些构件包括（括号内为构件对应的操作符）：筛选($match)、投射($project)、分组($group)、排序($sort)、限制($limit)、跳过($skip)
+# 不同的管道操作符可以任意组合，重复使用
+
+
+
+# ################################################  筛选
+# {"$match":{"字段":"条件"}},可以使用任何常用查询操作符$gt,$lt,$in等
+
+# select * from db1.emp where post='teacher'
+# db.emp.aggregate({'$match':{'post':'teacher'}})
+# """
+# { "_id" : 1, "name" : "ww", "sex" : "male", "age" : 78, "hire_date" : ISODate("2015-03-02T00:00:00Z"), "post" : "teacher", "salary" : 1000000.31 }
+# { "_id" : 2, "name" : "ff", "sex" : "male", "age" : 81, "hire_date" : ISODate("2013-03-05T00:00:00Z"), "post" : "teacher", "salary" : 8300 }
+# { "_id" : 3, "name" : "wusir", "sex" : "male", "age" : 73, "hire_date" : ISODate("2014-07-01T00:00:00Z"), "post" : "teacher", "salary" : 3500 }
+# { "_id" : 4, "name" : "peiqi", "sex" : "male", "age" : 28, "hire_date" : ISODate("2012-11-01T00:00:00Z"), "post" : "teacher", "salary" : 2100 }
+# { "_id" : 5, "name" : "eva_jing", "sex" : "female", "age" : 18, "hire_date" : ISODate("2011-02-11T00:00:00Z"), "post" : "teacher", "salary" : 9000 }
+# { "_id" : 6, "name" : "shaowei", "sex" : "male", "age" : 18, "hire_date" : ISODate("1900-03-01T00:00:00Z"), "post" : "teacher", "salary" : 30000 }
+# { "_id" : 7, "name" : "gaylao", "sex" : "male", "age" : 48, "hire_date" : ISODate("2010-11-11T00:00:00Z"), "post" : "teacher", "salary" : 10000 }
+# """
+
+# select * from db1.emp where id > 3 group by post
+db.emp.aggregate({'$match':{'_id':{'$gt':3}}},
+                 {'$group':{'_id':'$post'}}
+                 )
+"""
+{ "_id" : "sale" }
+{ "_id" : "operation" }
+{ "_id" : "teacher" }
+"""
+
+# select * from db1.emp where id > 3 group by post having avg(salary) > 10000;
+db.emp.aggregate(
+        {'$match':{'_id':{'$gt':3}}},
+    {'$group':{'_id':'post','avg_salary':{'$avg':'$salary'}}},
+{'$match':{'avg_salary':{'$gt':10000}}}
+)
+
+#{ "_id" : "post", "avg_salary" : 10578.685714285715 }
+
+
+
+###############################################  投射：{"$project":{"要保留的字段名":1,"要去掉的字段名":0,"新增的字段名":"表达式"}}
+
+#1、select name,post,(age+1) as new_age from db1.emp;
+db.emp.aggregate({
+    '$project':{'name':1,'post':1,
+                'new_age':{'$add':['$age',1]}
+                }
+})
+
+'''
+{ "_id" : 0, "name" : "pp", "post" : "eat_god", "new_age" : 19 }
+{ "_id" : 1, "name" : "ww", "post" : "teacher", "new_age" : 79 }
+{ "_id" : 2, "name" : "ff", "post" : "teacher", "new_age" : 82 }
+{ "_id" : 3, "name" : "wusir", "post" : "teacher", "new_age" : 74 }
+{ "_id" : 4, "name" : "peiqi", "post" : "teacher", "new_age" : 29 }
+{ "_id" : 5, "name" : "eva_jing", "post" : "teacher", "new_age" : 19 }
+{ "_id" : 6, "name" : "shaowei", "post" : "teacher", "new_age" : 19 }
+{ "_id" : 7, "name" : "gaylao", "post" : "teacher", "new_age" : 49 }
+{ "_id" : 8, "name" : "歪歪", "post" : "sale", "new_age" : 49 }
+{ "_id" : 9, "name" : "丫丫", "post" : "sale", "new_age" : 39 }
+{ "_id" : 10, "name" : "丁丁", "post" : "sale", "new_age" : 19 }
+{ "_id" : 11, "name" : "星星", "post" : "sale", "new_age" : 19 }
+{ "_id" : 12, "name" : "格格", "post" : "sale", "new_age" : 29 }
+{ "_id" : 13, "name" : "张野", "post" : "operation", "new_age" : 29 }
+{ "_id" : 14, "name" : "程咬金", "post" : "operation", "new_age" : 19 }
+{ "_id" : 15, "name" : "程咬银", "post" : "operation", "new_age" : 19 }
+{ "_id" : 16, "name" : "程咬铜", "post" : "operation", "new_age" : 19 }
+{ "_id" : 17, "name" : "程咬铁", "post" : "operation", "new_age" : 19 }
+'''
+
+
+#2、表达式之数学表达式
+# {"$add":[expr1,expr2,...,exprN]} #相加
+# {"$subtract":[expr1,expr2]} #第一个减第二个
+# {"$multiply":[expr1,expr2,...,exprN]} #相乘
+# {"$divide":[expr1,expr2]} #第一个表达式除以第二个表达式的商作为结果
+# {"$mod":[expr1,expr2]} #第一个表达式除以第二个表达式得到的余数作为结果
+
+#3、表达式之日期表达式￥year，$month，$week，$dayOfMonth，$dayOfWeek，$dayOfYear，$hour，$minute，$second
+#例如：select name,date_format("%Y") as hire_year from db1.emp
+db.emp.aggregate(
+    {"$project":{"name":1,"hire_year":{"$year":"$hire_date"}}})
+"""
+> db.emp.aggregate(
+...     {"$project":{"name":1,"hire_year":{"$year":"$hire_date"}}})
+{ "_id" : 0, "name" : "pp", "hire_year" : 2017 }
+{ "_id" : 1, "name" : "ww", "hire_year" : 2015 }
+{ "_id" : 2, "name" : "ff", "hire_year" : 2013 }
+{ "_id" : 3, "name" : "wusir", "hire_year" : 2014 }
+{ "_id" : 4, "name" : "peiqi", "hire_year" : 2012 }
+{ "_id" : 5, "name" : "eva_jing", "hire_year" : 2011 }
+{ "_id" : 6, "name" : "shaowei", "hire_year" : 1900 }
+{ "_id" : 7, "name" : "gaylao", "hire_year" : 2010 }
+{ "_id" : 8, "name" : "歪歪", "hire_year" : 2015 }
+{ "_id" : 9, "name" : "丫丫", "hire_year" : 2010 }
+{ "_id" : 10, "name" : "丁丁", "hire_year" : 2011 }
+{ "_id" : 11, "name" : "星星", "hire_year" : 2016 }
+{ "_id" : 12, "name" : "格格", "hire_year" : 2017 }
+{ "_id" : 13, "name" : "张野", "hire_year" : 2016 }
+{ "_id" : 14, "name" : "程咬金", "hire_year" : 1997 }
+{ "_id" : 15, "name" : "程咬银", "hire_year" : 2013 }
+{ "_id" : 16, "name" : "程咬铜", "hire_year" : 2015 }
+{ "_id" : 17, "name" : "程咬铁", "hire_year" : 2014 }
+"""
+
+
+# 查看每个员工工作了多久
+db.emp.aggregate(
+    {'$project':{'name':1,'hire_period':{
+        '$subtract':[
+            {'$year':new Date()},
+            {'$year':'$hire_date'}
+'''
+> db.emp.aggregate(
+...     {'$project':{'name':1,'hire_period':{
+...         '$subtract':[
+...             {'$year':new Date()},
+...             {'$year':'$hire_date'}
+...         ]
+...     }}})
+{ "_id" : 0, "name" : "pp", "hire_period" : 1 }
+{ "_id" : 1, "name" : "ww", "hire_period" : 3 }
+{ "_id" : 2, "name" : "ff", "hire_period" : 5 }
+{ "_id" : 3, "name" : "wusir", "hire_period" : 4 }
+{ "_id" : 4, "name" : "peiqi", "hire_period" : 6 }
+{ "_id" : 5, "name" : "eva_jing", "hire_period" : 7 }
+{ "_id" : 6, "name" : "shaowei", "hire_period" : 118 }
+{ "_id" : 7, "name" : "gaylao", "hire_period" : 8 }
+{ "_id" : 8, "name" : "歪歪", "hire_period" : 3 }
+{ "_id" : 9, "name" : "丫丫", "hire_period" : 8 }
+{ "_id" : 10, "name" : "丁丁", "hire_period" : 7 }
+{ "_id" : 11, "name" : "星星", "hire_period" : 2 }
+{ "_id" : 12, "name" : "格格", "hire_period" : 1 }
+{ "_id" : 13, "name" : "张野", "hire_period" : 2 }
+{ "_id" : 14, "name" : "程咬金", "hire_period" : 21 }
+{ "_id" : 15, "name" : "程咬银", "hire_period" : 5 }
+{ "_id" : 16, "name" : "程咬铜", "hire_period" : 3 }
+{ "_id" : 17, "name" : "程咬铁", "hire_period" : 4 }
+'''
+
+
+#4、字符串表达式
+# {"$substr":[字符串/$值为字符串的字段名,起始位置,截取几个字节]}
+# {"$concat":[expr1,expr2,...,exprN]} #指定的表达式或字符串连接在一起返回,只支持字符串拼接
+# {"$toLower":expr}
+# {"$toUpper":expr
+
+#5、逻辑表达式
+# $and
+# $or
+# $not
+# 其他见Mongodb权威指南
+
+
+
+#################################################  $group 分组
+#        {"$group":{"_id":分组字段,"新的字段名":聚合操作符}}
+
+#1、将分组字段传给$group函数的_id字段即可
+{"$group":{"_id":"$sex"}} #按照性别分组
+{"$group":{"_id":"$post"}} #按照职位分组
+{"$group":{"_id":{"state":"$state","city":"$city"}}} #按照多个字段分组，比如按照州市分组
+
+#2、分组后聚合得结果,类似于sql中聚合函数的聚合操作符：$sum、$avg、$max、$min、$first、$last
+#例1：select post,max(salary) from db1.emp group by post;
+db.emp.aggregate({"$group":{"_id":"$post","max_salary":{"$max":"$salary"}}})
+
+#例2：去每个部门最大薪资与最低薪资
+db.emp.aggregate({"$group":{"_id":"$post","max_salary":{"$max":"$salary"},"min_salary":{"$min":"$salary"}}})
+
+#例3：如果字段是排序后的，那么$first,$last会很有用,比用$max和$min效率高
+db.emp.aggregate({"$group":{"_id":"$post","first_id":{"$first":"$_id"}}})
+
+#例4：求每个部门的总工资
+db.emp.aggregate({"$group":{"_id":"$post","count":{"$sum":"$salary"}}})
+
+#例5：求每个部门的人数
+db.emp.aggregate({"$group":{"_id":"$post","count":{"$sum":1}}})
+
+#3、数组操作符
+{"$addToSet":expr}：不重复
+{"$push":expr}：重复
+# $addToSet和$push的区别
+# 该两者的功能都是给数组添加一个值。但是两者之间有区别，$addToSet要添加的值如果不存在才进行添加操作，但是push只添加一个值；例如:
+#
+# tags = [“tools”,”garden”]
+#
+# 如果执行db.collection.update({},{$push:{tag:tools}}) 结果就是 [“tools”,”garden”，“tools”]
+#
+# 如果执行db.collection.update({},{$addToSet:{tag:tools}}) 结果不变
+
+
+
+#例：查询岗位名以及各岗位内的员工姓名:select post,group_concat(name) from db1.emp group by post;
+db.emp.aggregate({'$group':{'_id':'$post','names':{'$push':'$name'}}})    # GROUP_CONCAT函数返回一个字符串结果，该结果由分组中的值连接组合而成。
+
+"""
+> db.emp.aggregate({'$group':{'_id':'$post','names':{'$push':'$name'}}})
+{ "_id" : "sale", "names" : [ "歪歪", "丫丫", "丁丁", "星星", "格格" ] }
+{ "_id" : "operation", "names" : [ "张野", "程咬金", "程咬银", "程咬铜", "程咬铁" ] }
+{ "_id" : "teacher", "names" : [ "ww", "ff", "wusir", "peiqi", "eva_jing", "shaowei", "gaylao" ] }
+{ "_id" : "eat_god", "names" : [ "pp" ] }
+"""
+
+db.emp.aggregate({'$group':{'_id':'$post','names':{'$addToSet':'$name'}}})
+"""
+> db.emp.aggregate({'$group':{'_id':'$post','names':{'$addToSet':'$name'}}})
+{ "_id" : "sale", "names" : [ "星星", "丁丁", "格格", "丫丫", "歪歪" ] }
+{ "_id" : "operation", "names" : [ "程咬铜", "程咬铁", "程咬金", "程咬银", "张野" ] }
+{ "_id" : "teacher", "names" : [ "peiqi", "eva_jing", "shaowei", "wusir", "gaylao", "ff", "ww" ] }
+{ "_id" : "eat_god", "names" : [ "pp" ] }
+"""
+
+
+
+# ##########################################  排序：$sort、限制：$limit、跳过：$skip
+{"$sort":{"字段名":1,"字段名":-1}} #1升序，-1降序
+{"$limit":n}
+{"$skip":n} #跳过多少个文档
+
+# 取平均工资最高的前两个部门
+db.emp.aggregate({
+    '$group':{'_id':'$post','平均工资':{'$avg':'$salary'}}
+},
+    {'$sort':{'平均工资':-1}},
+    {'$limit':2}
+        )
+
+'''
+{ "_id" : "teacher", "平均工资" : 151842.90142857144 }
+{ "_id" : "operation", "平均工资" : 16800.026 }
+'''
+
+#跳过一个
+db.emp.aggregate(
+    {'$group':{'_id':'$post','平均工资':{'$avg':'$salary'}}},
+    {'$sort':{'平均工资':-1}},
+    {'$limit':2},
+    {'$skip':1}
+)
+# { "_id" : "operation", "平均工资" : 16800.026 }
+
+
+
+
+# ###########################################  随机  $sample
+##集合users包含的文档如下
+{ "_id" : 1, "name" : "dave123", "q1" : true, "q2" : true }
+{ "_id" : 2, "name" : "dave2", "q1" : false, "q2" : false  }
+{ "_id" : 3, "name" : "ahn", "q1" : true, "q2" : true  }
+{ "_id" : 4, "name" : "li", "q1" : true, "q2" : false  }
+{ "_id" : 5, "name" : "annT", "q1" : false, "q2" : true  }
+{ "_id" : 6, "name" : "li", "q1" : true, "q2" : true  }
+{ "_id" : 7, "name" : "ty", "q1" : false, "q2" : true  }
+
+#下述操作时从users集合中随机选取3个文档
+# db.users.aggregate(
+#    [ { $sample: { size: 3 } } ]
+# )
+
+
+
+#练习： 查询各岗位平均薪资大于10000的岗位名、平均工资,结果按平均薪资降序排列,取前1个
+db.emp.aggregate(
+    {'$group':{'_id':'$post','平均工资':{'$avg':'$salary'}}},
+    {'$match':{'平均工资':{'$gt':10000}}},
+    {'$sort':{'平均工资':-1}},
+    {'$limit':1}
+)
+# { "_id" : "teacher", "平均工资" : 151842.90142857144 }
