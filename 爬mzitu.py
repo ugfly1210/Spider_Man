@@ -53,6 +53,7 @@ class Mzitu():
             return False
 
     def request(self, url):  ##这个函数获取网页的response 然后返回
+        
         content = requests.get(url, headers=self.headers)
         return content
 
