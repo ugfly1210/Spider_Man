@@ -44,9 +44,12 @@ class Mzitu():
         path = path.strip()
         isExists = os.path.exists(os.path.join("/Users/macbookpro/Desktop/mzt", path))
         if not isExists:
-            print(u'创建了', path, u'文件夹！')
-            os.makedirs(os.path.join("/Users/macbookpro/Desktop/mzt", path))
-            os.chdir(os.path.join("/Users/macbookpro/Desktop/mzt", path))  ##切换到目录
+            try:
+                print(u'创建了', path, u'文件夹！')
+                os.makedirs(os.path.join("/Users/macbookpro/Desktop/mzt", path))
+                os.chdir(os.path.join("/Users/macbookpro/Desktop/mzt", path))  ##切换到目录
+            except Exception as e :
+                print('报告！！！这里有问题-->%s'%e)
             return True
         else:
             print(u'名字叫做', path, u'的文件夹已经存在了！')
